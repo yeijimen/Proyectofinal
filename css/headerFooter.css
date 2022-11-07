@@ -1,0 +1,110 @@
+/*En este archivo .css se encuentran cosas en comun para todas las paginas,*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #c7c7c7;
+}
+
+.Bar{
+    background-color: #161616;
+    text-align: right;
+    width: 100%;
+    padding: 7px;
+}
+
+.Bar a{
+    background-color: #0fcaa2;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px;
+    margin-right: 10px;
+    color: #161616;
+}
+
+.Bar a:hover{
+    background-color: #161616;
+    color: #0fcaa2;
+    border: 1px solid #0fcaa2;
+}
+
+header{
+    background: linear-gradient(10deg, #000842, #2b0000);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+header img{
+    transition: 0.5s;
+}
+
+header img:hover{
+    transform: scale(1.05);
+}
+
+nav{
+    background-color: #161616;
+    text-align: center;
+    overflow: hidden;
+    padding: 13px;
+    border-bottom: 2px solid #0fcaa2;
+}
+
+nav li{
+    display: inline;
+}
+
+nav li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    color: #b6b6b6;
+    font-weight: bold;
+    color: white;
+}
+
+nav li a:hover{
+    background-color: #00001b;
+    color: #0fcaa2;
+}
+
+.sticky {
+    background-color: #000842de;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.active{
+    background-color: #0fcaa2;
+}
+
+main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+
+h1, h2, h3{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #161616;
+    padding-top: 25px;
+}
+
+
+.clear{
+    clear: both;
+}
+
+
